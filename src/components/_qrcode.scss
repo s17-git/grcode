@@ -1,0 +1,31 @@
+.qrcode {
+    background: map-get($colors, bee-white);
+    width: map-get($sizes, qrcode-component);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow:  0 0 2px map-get($colors, bee-grayishblue);
+
+    img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 9px;
+    }
+
+    &__title {
+        color: map-get($colors, bee-darkblue);
+        font-weight: 700;
+        font-size: 1.1rem;
+        padding: 11px
+    }
+
+    &__desc {
+        color: map-get($colors, bee-grayishblue);
+        font-weight: 400;
+        font-size: 0.8rem;
+        padding: 0 12px 12px 12px;
+
+    }
+
+}
+

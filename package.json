@@ -1,0 +1,11 @@
+{
+  "name": "bee-frontendmentor-qrcode-project",
+  "version": "1.0.0",
+  "description": "FrontEnd Mentore QR Code challenge for front end developer",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass --watch ./src/main.scss ./dist/main.css"
+  },
+  "author": "Ousmane Sylla",
+  "license": "ISC"
+}

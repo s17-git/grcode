@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bee-qrcod-app {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    width: 100vw;
+    background: map-get($colors, bee-grayishblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    background: map-get($colors, bee-lightgray);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @include desktop-only {
+        width: 90vw;
+        height: 80vh;
+    }
+}
