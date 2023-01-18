@@ -7,27 +7,13 @@
     padding: 0;
 }
 
-.bee-qrcod-app {
+main{
     font-family: 'Outfit', sans-serif;
-    font-size: 15px;
-    height: 100vh;
-    width: 100vw;
-    background: map-get($colors, bee-grayishblue);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.wrapper {
+    font-size: 0.9rem; 
+    min-height: 100vh;
     background: map-get($colors, bee-lightgray);
-    height: 100%;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-
-    @include desktop-only {
-        width: 90vw;
-        height: 80vh;
-    }
 }
+

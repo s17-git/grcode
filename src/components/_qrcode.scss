@@ -1,14 +1,14 @@
 .qrcode {
     background: map-get($colors, bee-white);
-    width: map-get($sizes, qrcode-component);
+    max-width: map-get($sizes, qrcode-component);  // should write max-width so the element can shrink if necessary
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     box-shadow:  0 0 2px map-get($colors, bee-grayishblue);
 
     img {
-        width: 100%;
-        object-fit: cover;
+        max-width: 100%; // I'll test that, if reset css is used so img is 100% max-width and display block already
+        // object-fit: cover; // no need object-fit
         border-radius: 9px;
     }
 
