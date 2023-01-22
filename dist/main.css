@@ -7,7 +7,7 @@
   padding: 0;
 }
 
-.bee-qrcod-app {
+body {
   font-family: "Outfit", sans-serif;
   font-size: 0.9rem;
   min-height: 100vh;
